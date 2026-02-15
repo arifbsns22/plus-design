@@ -1,0 +1,24 @@
+/* Place this AFTER Webflow's CSS (site-level custom code or an HTML embed near the navbar) */
+
+/* Base (mobile) */
+.navbar_logo {
+  width: 65px !important;
+  height: auto !important;
+  max-width: none !important;
+  display: block !important;
+  object-fit: contain !important;
+}
+
+/* Tablet (768px – 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar_logo {
+    width: 80px !important;
+  }
+}
+
+/* Desktop (>= 992px) */
+@media (min-width: 992px) {
+  .navbar_logo {
+    width: 120px !important;
+  }
+}
