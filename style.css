@@ -2684,6 +2684,7 @@ figcaption {
 .padding-global {
   padding-right: var(--fixed--3rem);
   padding-left: var(--fixed--3rem);
+  padding-bottom: 50px;
 }
 
 .padding-global.is-tiny {
@@ -3365,7 +3366,7 @@ figcaption {
 
 .button:hover {
   border-radius: var(--fixed--1-5rem);
-  background-color: #F27473;
+  background-color: #f27473;
   color: #000000;
   font-size: var(--fixed--1rem);
   font-weight: var(--_typography---font-weight--medium);
@@ -3568,7 +3569,7 @@ figcaption {
 }
 
 .brands_item-logo {
-  height: 21%;
+  height: 30%;
 }
 
 .brands_item-name {
@@ -4176,7 +4177,9 @@ figcaption {
   letter-spacing: -0.05em;
   margin-right: auto;
 }
-
+.footer_brand a {
+  color: #000;
+}
 .about-header_content {
   flex-flow: column;
   justify-content: center;
@@ -5547,7 +5550,7 @@ figcaption {
   }
 
   .brands_item-logo {
-    height: 25%;
+    height: 30%;
   }
 
   .brands_item-logo-wrap {
