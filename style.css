@@ -2684,7 +2684,6 @@ figcaption {
 .padding-global {
   padding-right: var(--fixed--3rem);
   padding-left: var(--fixed--3rem);
-  padding-bottom: 50px;
 }
 
 .padding-global.is-tiny {
@@ -3425,6 +3424,11 @@ figcaption {
 
 .navbar_logo {
   width: var(--fixed--9rem);
+}
+
+.is-mobile-logo {
+  width: 50px;
+  height: auto;
 }
 
 .navbar_component {
@@ -5515,10 +5519,6 @@ figcaption {
     min-height: auto;
   }
 
-  .navbar_logo {
-    width: var(--fixed--8rem);
-  }
-
   .navbar_component {
     justify-content: center;
     align-items: center;
@@ -6819,10 +6819,6 @@ figcaption {
   #w-node-_3e2f36c7-a93b-26f9-3eb0-428f49cd1226-ca427ff1 {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
-  .navbar_logo {
-    width: 52px;
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6863,7 +6859,7 @@ figcaption {
 
   .heading-style-h3 {
     font-family: var(--_typography---h3--font-family);
-    font-size: 28px;
+    font-size: 20px;
     line-height: normal;
     font-weight: var(--_typography---h3--font-weight);
     letter-spacing: var(--_typography---h3--letter-spacing);
