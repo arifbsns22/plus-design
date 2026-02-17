@@ -5446,7 +5446,7 @@ figcaption {
     font-size: var(--fixed--1-5rem);
   }
 
-  .padding-section-medium.is-tablet-smaller {
+  .padding-section-medium .is-tablet-smaller {
     padding-top: var(--fixed--3rem);
   }
 
