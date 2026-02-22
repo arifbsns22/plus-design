@@ -2807,6 +2807,7 @@ figcaption {
   font-weight: var(--_typography---font-weight--medium);
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  padding-top: 30px;
 }
 
 .display-inline-block {
@@ -3737,6 +3738,7 @@ figcaption {
   justify-content: flex-start;
   align-items: center;
   display: flex;
+  margin-top: 50px;
 }
 
 .work-list_block {
@@ -6091,15 +6093,15 @@ figcaption {
     max-width: none;
   }
 
-  .padding-section-medium.is-mobile-small {
+  .padding-section-medium .is-mobile-small {
     padding-top: var(--fixed--2-5rem);
   }
 
-  .padding-section-medium.is-mobile-big {
+  .padding-section-medium .is-mobile-big {
     padding-top: var(--fixed--6rem);
   }
 
-  .padding-section-medium.is-tablet-smaller {
+  .padding-section-medium .is-tablet-smaller {
     padding-top: var(--fixed--1-5rem);
   }
 
