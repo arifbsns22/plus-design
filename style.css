@@ -2582,8 +2582,9 @@ figcaption {
   width: 100%;
 }
 
-.padding-section-medium is-tablet-smaller {
-  padding-top: var(--section--medium);
+.padding-section-medium,
+.is-tablet-smaller {
+  padding-top: 80px;
 }
 
 .spacer-tiny {
@@ -5447,8 +5448,9 @@ figcaption {
     font-size: var(--fixed--1-5rem);
   }
 
-  .padding-section-medium is-tablet-smaller .is-tablet-smaller {
-    padding-top: var(--fixed--3rem);
+  .padding-section-medium,
+  .is-tablet-smaller {
+    padding-top: 80px;
   }
 
   .text-size-medium {
@@ -5473,7 +5475,8 @@ figcaption {
     padding-left: var(--fixed--2-25rem);
   }
 
-  .padding-section-large.is-tablet-smaller {
+  .padding-section-large,
+  .is-tablet-smaller {
     padding-top: var(--fixed--3rem);
   }
 
@@ -6038,7 +6041,8 @@ figcaption {
     font-size: 1.125rem;
   }
 
-  .spacer-custom-1.is-mobile-small {
+  .spacer-custom-1,
+  .is-mobile-small {
     padding-top: var(--fixed--0-75rem);
   }
 
@@ -6047,7 +6051,8 @@ figcaption {
     grid-row-gap: 1rem;
   }
 
-  .resources_items.more-columns {
+  .resources_items,
+  .more-columns {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -6092,16 +6097,17 @@ figcaption {
     max-width: none;
   }
 
-  .padding-section-medium is-tablet-smaller .is-mobile-small {
+  .padding-section-medium,
+  .is-tablet-smaller,
+  .is-mobile-small {
     padding-top: var(--fixed--2-5rem);
   }
 
-  .padding-section-medium is-tablet-smaller .is-mobile-big {
-    padding-top: var(--fixed--6rem);
-  }
-
-  .padding-section-medium is-tablet-smaller .is-tablet-smaller {
-    padding-top: var(--fixed--1-5rem);
+  /* Working-Spaceing CSS */
+  .padding-section-medium,
+  .is-tablet-smaller,
+  .is-mobile-big {
+    padding-top: 60px;
   }
 
   .text-size-medium {
@@ -6157,7 +6163,8 @@ figcaption {
     letter-spacing: 0.05em;
   }
 
-  .spacer-xlarge.is-mobile-small {
+  .spacer-xlarge,
+  .is-mobile-small {
     padding-top: var(--fixed--2rem);
   }
 
