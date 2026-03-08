@@ -6046,7 +6046,7 @@ figcaption {
 
   .spacer-custom-1,
   .is-mobile-small {
-    padding-top: var(--fixed--0-75rem);
+    padding-top: 40px;
   }
 
   .resources_items {
@@ -6110,7 +6110,7 @@ figcaption {
   .padding-section-medium,
   .is-tablet-smaller,
   .is-mobile-big {
-    padding-top: 80px;
+    padding-top: 128px;
   }
 
   .text-size-medium {
@@ -6203,7 +6203,7 @@ figcaption {
   }
 
   .home-header_heading {
-    font-size: var(--fixed--2rem);
+    font-size: 24px;
   }
 
   .home-header_imgs-wrapper {
