@@ -2582,9 +2582,11 @@ figcaption {
   width: 100%;
 }
 
+/* Desktop mode spaceing CSS */
 .padding-section-medium,
-.is-tablet-smaller {
-  padding-top: 80px;
+.is-tablet-smaller,
+.is-mobile-small {
+  padding-top: 128px;
 }
 
 .spacer-tiny {
@@ -5449,8 +5451,9 @@ figcaption {
   }
 
   .padding-section-medium,
-  .is-tablet-smaller {
-    padding-top: 80px;
+  .is-tablet-smaller,
+  .is-mobile-small {
+    padding-top: 128px;
   }
 
   .text-size-medium {
@@ -6107,7 +6110,7 @@ figcaption {
   .padding-section-medium,
   .is-tablet-smaller,
   .is-mobile-big {
-    padding-top: 60px;
+    padding-top: 80px;
   }
 
   .text-size-medium {
