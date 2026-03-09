@@ -6110,7 +6110,7 @@ figcaption {
   .padding-section-medium,
   .is-tablet-smaller,
   .is-mobile-big {
-    /* padding-top: 128px; */
+    padding-top: 128px;
   }
 
   .text-size-medium {
